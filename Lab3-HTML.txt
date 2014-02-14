@@ -1,0 +1,45 @@
+     
+ <!-------Direction Display ------------------>
+    
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+
+<div id="map"></div>
+<p><h1>Direction Display</h1></p>
+<table>
+    <tr><td>Source:</td> 
+    <td><input type ="text" id="i1" name="Source"></td></tr>
+    <tr><td>Destination:</td>
+     <td><input type="text" id="i2" name="dest"></td></tr>
+  </table>
+<button id="button">Submit</button>
+        <button id="clbutton">Clear</button>
+<div id="map_view" hidden="true" style="height: 500px; width: 500px"></div>
+        
+ <!------------Navigator Display-------------->
+           <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<p><h1>Navigator Display</h1></p>
+<div id="#map_geo"></div>
+        <table>
+    <tr><td>
+    <button id="Nbutton">Click here for Navigator</button>
+            <button id="Nclbutton">Clear</button></td></tr></table> 
+    <div id="map_geo" hidden="true" style="width: 530px; height: 230px"></div>
+
+
+<!----------- Weather Display ----------->
+        
+<div id="weather"></div>        
+ <script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;libraries=weather"></script>
+<p><h1>Weather Display</h1></p>
+
+<table>
+    <tr>
+       
+        <td>
+    <button id="Wbutton">Click here for Weather Display</button>
+            <button id="Wclbutton">Clear</button></td></tr></table>    
+    
+         <div id="map_weather" style="width: 530px; height: 230px"></div>
+
+        
+        
